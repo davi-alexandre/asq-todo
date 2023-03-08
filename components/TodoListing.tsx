@@ -27,7 +27,7 @@ export default function TodoList({ className, state }: any) {
   }, []);
 
   return (
-    <div className={className + " " + "flex flex-col"}>
+    <div className={className + " " + "flex flex-col max-h-[600px] overflow-y-scroll"}>
       {todos.length > 0
         ? todos.map((todo) => (
             <TodoListItem key={todo.id} todo={todo} state={state} />
@@ -59,8 +59,8 @@ function TodoListItem({ todo, state }: todoProps) {
   return (
     <li
       className={
-        "list-none py-2 px-4" +
-        (todo?.id === state?.activeTodo?.id ? " bg-orange-200" : "")
+        "flex flex-col justify-center list-none py-2 px-4 h-12" + " " +
+        (todo?.id === state?.activeTodo?.id ? "text-orange-900 bg-orange-200" : "text-gray-900")
       }
       onClick={setActive}
     >
