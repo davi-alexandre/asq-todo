@@ -1,5 +1,5 @@
 {
-  "name": "tasq-todo-app",
+  "name": "asq-todo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,11 +15,15 @@
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
     "firebase": "^9.17.2",
+    "lodash": "^4.17.21",
     "next": "13.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "sass": "^1.58.3",
+    "slate": "^0.91.4",
+    "slate-history": "^0.86.0",
+    "slate-react": "^0.91.10",
     "typescript": "4.9.5"
   },
   "devDependencies": {
