@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "asq-todo",
+=======
+  "name": "tasq-todo",
+>>>>>>> 2829127c73315762a9afea43a2c96afda9dd1d30
   "version": "0.1.0",
   "private": true,
   "scripts": {
